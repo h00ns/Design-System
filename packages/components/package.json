@@ -1,8 +1,7 @@
 {
   "name": "@hoon-ds/components",
   "version": "1.0.0",
-  "main": "index.js",
-  "author": "",
+  "main": "src/index.ts",
   "license": "ISC",
   "dependencies": {
     "@emotion/react": "^11.13.0",

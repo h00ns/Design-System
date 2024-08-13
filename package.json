@@ -6,6 +6,8 @@
   "scripts": {
     "components": "pnpm -F @hoon-ds/components",
     "token": "pnpm -F @hoon-ds/token",
+    "hoon-book": "pnpm -F @hoon-ds/hoon-book",
+    "react": "pnpm -F @hoon-ds/react",
     "format": "prettier --write \"packages/**/*.{ts,tsx}\"",
     "lint": "eslint --fix \"packages/**/*.{ts,tsx}\""
   },
@@ -21,6 +23,7 @@
     "eslint-plugin-prettier": "^5.2.1",
     "eslint-plugin-react": "^7.35.0",
     "eslint-plugin-react-hooks": "^4.6.2",
+    "eslint-plugin-storybook": "^0.8.0",
     "prettier": "^3.3.3",
     "typescript": "^5.5.4"
   }
