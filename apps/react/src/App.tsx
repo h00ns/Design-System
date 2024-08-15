@@ -1,7 +1,7 @@
-import { Button } from '@hoon-ds/components';
+import { Badge } from '@hoon-ds/components';
 
 function App() {
-  return <Button></Button>;
+  return <Badge text="badge" />;
 }
 
 export default App;
