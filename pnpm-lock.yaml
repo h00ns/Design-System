@@ -47,6 +47,9 @@ importers:
       '@hoon-ds/components':
         specifier: workspace:^
         version: link:../../packages/components
+      '@hoon-ds/stylesheet':
+        specifier: workspace:^
+        version: link:../../packages/stylesheet
       '@hoon-ds/token':
         specifier: workspace:^
         version: link:../../packages/token
