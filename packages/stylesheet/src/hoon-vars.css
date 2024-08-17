@@ -20,7 +20,7 @@
   /* font-size */
   --hoon-text-xsmall: 12px;
   --hoon-text-small: 14px;
-  --hoon-text-base: 16px;
+  --hoon-text-medium: 16px;
   --hoon-text-large: 18px;
   --hoon-text-xlarge: 20px;
   --hoon-text-2xlarge: 24px;
@@ -31,7 +31,7 @@
   /* line-height */
   --hoon-leading-xsmall: 16px;
   --hoon-leading-small: 20px;
-  --hoon-leading-base: 24px;
+  --hoon-leading-medium: 24px;
   --hoon-leading-large: 28px;
   --hoon-leading-xlarge: 32px;
   --hoon-leading-2xlarge: 36px;
@@ -60,9 +60,9 @@
   --hoon-shadow-large: 0 8px 16px 0 rgba(0, 0, 0, 0.05);
 
   /* Color - Pirmary */
-  --hoon-color-black: #000000;
+  --hoon-color-ink: #000000;
   --hoon-color-white: #ffffff;
-  --hoon-color-gray: #9e9e9e;
+  --hoon-color-silver: #9e9e9e;
 
   /* Color - Black  */
   --hoon-color-black-100: #e0e0e0;
