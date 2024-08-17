@@ -1,0 +1,14 @@
+{
+  "name": "@hoon-ds/stylesheet",
+  "version": "1.0.0",
+  "publishConfig": {
+    "access": "public"
+  },
+  "exports": {
+    ".": "./src/hoon-stylesheet.css",
+    "./package.json": "./package.json"
+  },
+  "files": [
+    "src"
+  ]
+}

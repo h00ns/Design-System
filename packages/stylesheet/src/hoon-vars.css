@@ -1,0 +1,120 @@
+:root {
+  /* space */
+  --hoon-space-0: 0;
+  --hoon-space-1: 4px;
+  --hoon-space-2: 8px;
+  --hoon-space-3: 12px;
+  --hoon-space-4: 16px;
+  --hoon-space-5: 20px;
+  --hoon-space-6: 24px;
+  --hoon-space-7: 28px;
+  --hoon-space-8: 32px;
+  --hoon-space-9: 36px;
+  --hoon-space-10: 40px;
+  --hoon-space-12: 48px;
+  --hoon-space-16: 64px;
+  --hoon-space-20: 80px;
+  --hoon-space-24: 96px;
+  --hoon-space-30: 120px;
+
+  /* font-size */
+  --hoon-text-xsmall: 12px;
+  --hoon-text-small: 14px;
+  --hoon-text-base: 16px;
+  --hoon-text-large: 18px;
+  --hoon-text-xlarge: 20px;
+  --hoon-text-2xlarge: 24px;
+  --hoon-text-3xlarge: 30px;
+  --hoon-text-4xlarge: 36px;
+  --hoon-text-5xlarge: 48px;
+
+  /* line-height */
+  --hoon-leading-xsmall: 16px;
+  --hoon-leading-small: 20px;
+  --hoon-leading-base: 24px;
+  --hoon-leading-large: 28px;
+  --hoon-leading-xlarge: 32px;
+  --hoon-leading-2xlarge: 36px;
+  --hoon-leading-3xlarge: 40px;
+  --hoon-leading-4xlarge: 48px;
+  --hoon-leading-5xlarge: 60px;
+
+  /* font-weight */
+  --hoon-font-normal: 400;
+  --hoon-font-medium: 500;
+  --hoon-font-semibold: 600;
+  --hoon-font-bold: 700;
+
+  /* border-radius */
+  --hoon-radius-none: 0;
+  --hoon-radius-xsmall: 2px;
+  --hoon-radius-small: 4px;
+  --hoon-radius-medium: 8px;
+  --hoon-radius-large: 12px;
+  --hoon-radius-xlarge: 16px;
+  --hoon-radius-full: 9999px;
+
+  /* box-shadow */
+  --hoon-shadow-small: 0 1px 2px 0 rgba(0, 0, 0, 0.05);
+  --hoon-shadow-medium: 0 4px 8px 0 rgba(0, 0, 0, 0.05);
+  --hoon-shadow-large: 0 8px 16px 0 rgba(0, 0, 0, 0.05);
+
+  /* Color - Pirmary */
+  --hoon-color-black: #000000;
+  --hoon-color-white: #ffffff;
+  --hoon-color-gray: #9e9e9e;
+
+  /* Color - Black  */
+  --hoon-color-black-100: #e0e0e0;
+  --hoon-color-black-200: #b3b3b3;
+  --hoon-color-black-300: #808080;
+  --hoon-color-black-400: #4d4d4d;
+  --hoon-color-black-500: #333333;
+  --hoon-color-black-600: #1a1a1a;
+  --hoon-color-black-700: #000000;
+
+  /* Color - Green */
+  --hoon-color-green-100: #e8f5e9;
+  --hoon-color-green-200: #c8e6c9;
+  --hoon-color-green-300: #a5d6a7;
+  --hoon-color-green-400: #81c784;
+  --hoon-color-green-500: #4caf50;
+  --hoon-color-green-600: #43a047;
+  --hoon-color-green-700: #388e3c;
+
+  /* Color - Blue */
+  --hoon-color-blue-100: #bbdefb;
+  --hoon-color-blue-200: #90caf9;
+  --hoon-color-blue-300: #64b5f6;
+  --hoon-color-blue-400: #42a5f5;
+  --hoon-color-blue-500: #2196f3;
+  --hoon-color-blue-600: #1e88e5;
+  --hoon-color-blue-700: #1976d2;
+
+  /* Color - Yellow */
+  --hoon-color-yellow-100: #fffde7;
+  --hoon-color-yellow-200: #fff9c4;
+  --hoon-color-yellow-300: #fff59d;
+  --hoon-color-yellow-400: #fff176;
+  --hoon-color-yellow-500: #ffeb3b;
+  --hoon-color-yellow-600: #fdd835;
+  --hoon-color-yellow-700: #fbc02d;
+
+  /* Color - Red */
+  --hoon-color-red-100: #ffebee;
+  --hoon-color-red-200: #ffcdd2;
+  --hoon-color-red-300: #ef9a9a;
+  --hoon-color-red-400: #ef5350;
+  --hoon-color-red-500: #f44336;
+  --hoon-color-red-600: #e53935;
+  --hoon-color-red-700: #d32f2f;
+
+  /* Color - Gray */
+  --hoon-color-gray-100: #f5f5f5;
+  --hoon-color-gray-200: #eeeeee;
+  --hoon-color-gray-300: #e0e0e0;
+  --hoon-color-gray-400: #bdbdbd;
+  --hoon-color-gray-500: #9e9e9e;
+  --hoon-color-gray-600: #757575;
+  --hoon-color-gray-700: #616161;
+}

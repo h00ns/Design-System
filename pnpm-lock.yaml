@@ -84,6 +84,9 @@ importers:
       '@hoon-ds/components':
         specifier: workspace:^
         version: link:../../packages/components
+      '@hoon-ds/stylesheet':
+        specifier: workspace:^
+        version: link:../../packages/stylesheet
       react:
         specifier: ^18.3.1
         version: 18.3.1
@@ -143,6 +146,8 @@ importers:
       '@types/react':
         specifier: ^18.3.3
         version: 18.3.3
+
+  packages/stylesheet: {}
 
   packages/token: {}
 
