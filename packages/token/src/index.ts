@@ -5,7 +5,7 @@ import lineHeight from './line-height';
 import radius from './radius';
 import shadow from './shadow';
 import space from './space';
-import typography from './typography';
+import { semantic } from './_semantic';
 
 export const token = {
   color,
@@ -15,5 +15,6 @@ export const token = {
   radius,
   shadow,
   space,
-  typography,
+
+  semantic,
 } as const;

@@ -1,7 +1,6 @@
 {
-  "name": "@hoon-ds/tokens",
+  "name": "@hoon-ds/token",
   "version": "1.0.0",
-  "main": "index.ts",
-  "author": "",
+  "main": "./src/index.ts",
   "license": "ISC"
 }

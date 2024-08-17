@@ -2,7 +2,7 @@ import styled from '@emotion/styled';
 import { css, SerializedStyles } from '@emotion/react';
 import { BadgeSize, BadgeVariant } from './Badge.types';
 
-export const Wrap = styled.div`
+export const Component = styled.div`
   width: fit-content;
   height: fit-content;
   padding: 4px 6px;

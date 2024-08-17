@@ -1,8 +1,16 @@
 {
   "name": "hoon-ds",
   "version": "1.0.0",
-  "description": "",
-  "main": "index.js",
+  "description": "Hoon Design System",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/h00ns/Design-System.git"
+  },
+  "author": {
+    "name": "Hoon",
+    "email": "01052405583a@gmail.com"
+  },
+  "private": false,
   "scripts": {
     "components": "pnpm -F @hoon-ds/components",
     "token": "pnpm -F @hoon-ds/token",
@@ -14,8 +22,6 @@
     "format": "prettier --write \"packages/**/*.{ts,tsx}\"",
     "lint": "eslint --fix \"packages/**/*.{ts,tsx}\""
   },
-  "keywords": [],
-  "author": "",
   "license": "ISC",
   "devDependencies": {
     "@typescript-eslint/eslint-plugin": "^5.59.0",

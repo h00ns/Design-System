@@ -18,6 +18,7 @@
     "storybook": "^8.2.9"
   },
   "dependencies": {
-    "@hoon-ds/components": "workspace:^"
+    "@hoon-ds/components": "workspace:^",
+    "@hoon-ds/token": "workspace:^"
   }
 }
