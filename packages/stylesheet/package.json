@@ -5,8 +5,7 @@
     "access": "public"
   },
   "exports": {
-    ".": "./src/hoon-stylesheet.css",
-    "./package.json": "./package.json"
+    ".": "./src/hoon-stylesheet.css"
   },
   "files": [
     "src"

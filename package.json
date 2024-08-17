@@ -8,6 +8,9 @@
     "token": "pnpm -F @hoon-ds/token",
     "hoon-book": "pnpm -F @hoon-ds/hoon-book",
     "react": "pnpm -F @hoon-ds/react",
+    "publish:components": "pnpm publish --filter @hoon-ds/components --access public",
+    "publish:token": "pnpm publish --filter @hoon-ds/token --access public",
+    "publish:stylesheet": "pnpm publish --filter @hoon-ds/stylesheet --access public",
     "format": "prettier --write \"packages/**/*.{ts,tsx}\"",
     "lint": "eslint --fix \"packages/**/*.{ts,tsx}\""
   },
