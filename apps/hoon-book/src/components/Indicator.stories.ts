@@ -5,7 +5,6 @@ import '@hoon-ds/stylesheet';
 const meta: Meta<typeof Indicator> = {
   title: 'Components/Indicator',
   component: Indicator,
-  tags: ['autodocs'],
   argTypes: {
     size: {
       description:

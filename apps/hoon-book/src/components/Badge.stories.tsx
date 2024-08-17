@@ -1,11 +1,11 @@
-import { Badge } from '@hoon-ds/components';
+import { Badge as Component } from '@hoon-ds/components';
 import { Meta, StoryObj } from '@storybook/react';
-import '@hoon-ds/stylesheet';
+
+const Badge = Component;
 
 const meta: Meta<typeof Badge> = {
   title: 'Components/Badge',
   component: Badge,
-  tags: ['autodocs'],
   argTypes: {
     text: {
       description: 'Badge 컴포넌트 내부에 표시될 텍스트를 나타냅니다.',
@@ -32,4 +32,4 @@ export default meta;
 
 type Story = StoryObj<typeof meta>;
 
-export const Component: Story = {};
+export const Default: Story = {};

@@ -5,7 +5,6 @@ import '@hoon-ds/stylesheet';
 const meta: Meta<typeof Button> = {
   title: 'Components/Button',
   component: Button,
-  tags: ['autodocs'],
 } satisfies Meta<typeof Button>;
 
 export default meta;

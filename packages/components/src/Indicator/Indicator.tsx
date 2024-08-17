@@ -26,12 +26,4 @@ const _Indicator = (
   );
 };
 
-/**
- *  Indicator
- *
- *  @param {'small' | 'medium' | 'large' | number} [size] - Indicator의 크기를 설정합니다. number형식으로 직접 설정할 수 있습니다. (default : medium)
- *  ```tsx
- *  'small' | 'medium' | 'large' | number
- *  ```
- */
 export const Indicator = forwardRef(_Indicator);

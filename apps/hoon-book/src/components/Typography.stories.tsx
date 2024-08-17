@@ -6,7 +6,6 @@ import '@hoon-ds/stylesheet';
 const meta: Meta<typeof Typography> = {
   title: 'Components/Typography',
   component: Typography,
-  tags: ['autodocs'],
   argTypes: {
     children: {
       description: 'Typography 컴포넌트 내부에 표시될 children구조를 나타냅니다.',
