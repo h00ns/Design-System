@@ -1,12 +1,18 @@
-import { Badge, Button, Indicator, Typography } from '@hoon-ds/components';
+import { Checkbox, Typography } from '@hoon-ds/components';
+import { useState } from 'react';
 
 function App() {
+  const [check, setCheck] = useState(false);
+
   return (
     <>
-      <Badge text="badge" />
-      <Indicator />
-      <Button text="123" />
       <Typography variant="5xlarge-bold">Typography</Typography>
+      <Checkbox
+        checked={check}
+        onChange={(e) => {
+          setCheck(e.target.checked);
+        }}
+      />
     </>
   );
 }
