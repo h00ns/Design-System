@@ -21,6 +21,8 @@
     "storybook": "^8.2.9"
   },
   "dependencies": {
+    "@emotion/react": "^11.13.0",
+    "@emotion/styled": "^11.13.0",
     "@hoon-ds/components": "workspace:^",
     "@hoon-ds/stylesheet": "workspace:^",
     "@hoon-ds/token": "workspace:^",

@@ -44,6 +44,12 @@ importers:
 
   apps/hoon-book:
     dependencies:
+      '@emotion/react':
+        specifier: ^11.13.0
+        version: 11.13.0(@types/react@18.3.3)(react@18.3.1)
+      '@emotion/styled':
+        specifier: ^11.13.0
+        version: 11.13.0(@emotion/react@11.13.0)(@types/react@18.3.3)(react@18.3.1)
       '@hoon-ds/components':
         specifier: workspace:^
         version: link:../../packages/components
