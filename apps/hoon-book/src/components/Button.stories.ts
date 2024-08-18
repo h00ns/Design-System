@@ -1,6 +1,5 @@
 import type { Meta, StoryObj } from '@storybook/react';
 import { Button } from '@hoon-ds/components';
-import '@hoon-ds/stylesheet';
 
 const meta: Meta<typeof Button> = {
   title: 'Components/Button',

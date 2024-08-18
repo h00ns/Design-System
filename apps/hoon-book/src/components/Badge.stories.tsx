@@ -1,6 +1,5 @@
 import { Badge } from '@hoon-ds/components';
 import { Meta, StoryObj } from '@storybook/react';
-import '@hoon-ds/stylesheet';
 
 const meta: Meta<typeof Badge> = {
   title: 'Components/Badge',

@@ -1,7 +1,6 @@
 import { Typography } from '@hoon-ds/components';
 import { Meta, StoryObj } from '@storybook/react';
 import { token } from '@hoon-ds/token';
-import '@hoon-ds/stylesheet';
 
 const meta: Meta<typeof Typography> = {
   title: 'Components/Typography',

@@ -1,4 +1,5 @@
 import type { Preview } from '@storybook/react';
+import '@hoon-ds/stylesheet';
 
 const preview: Preview = {
   parameters: {

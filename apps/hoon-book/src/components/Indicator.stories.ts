@@ -1,6 +1,5 @@
 import { Indicator } from '@hoon-ds/components';
 import { Meta, StoryObj } from '@storybook/react';
-import '@hoon-ds/stylesheet';
 
 const meta: Meta<typeof Indicator> = {
   title: 'Components/Indicator',

@@ -1,6 +1,5 @@
 import { Checkbox, CheckboxWithLabel } from '@hoon-ds/components';
 import { Meta, StoryObj } from '@storybook/react';
-import '@hoon-ds/stylesheet';
 import React from 'react';
 
 const meta: Meta<typeof Checkbox> = {
