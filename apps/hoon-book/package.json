@@ -1,6 +1,7 @@
 {
   "name": "@hoon-ds/hoon-book",
   "version": "1.0.0",
+  "type": "module",
   "scripts": {
     "storybook": "storybook dev -p 6006",
     "build-storybook": "storybook build"
@@ -15,11 +16,15 @@
     "@storybook/react": "^8.2.9",
     "@storybook/react-vite": "^8.2.9",
     "@storybook/test": "^8.2.9",
+    "@types/react": "^18.3.3",
+    "@types/react-dom": "^18.3.0",
     "storybook": "^8.2.9"
   },
   "dependencies": {
     "@hoon-ds/components": "workspace:^",
+    "@hoon-ds/stylesheet": "workspace:^",
     "@hoon-ds/token": "workspace:^",
-    "@hoon-ds/stylesheet": "workspace:^"
+    "react": "^18.3.1",
+    "react-dom": "^18.3.1"
   }
 }

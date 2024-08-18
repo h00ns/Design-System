@@ -1,6 +1,7 @@
-import { Checkbox } from '@hoon-ds/components';
+import { Checkbox, CheckboxWithLabel } from '@hoon-ds/components';
 import { Meta, StoryObj } from '@storybook/react';
 import '@hoon-ds/stylesheet';
+import React from 'react';
 
 const meta: Meta<typeof Checkbox> = {
   title: 'Components/Checkbox',
@@ -21,3 +22,23 @@ export default meta;
 type Story = StoryObj<typeof meta>;
 
 export const Default: Story = {};
+
+/** Label과 같이 사용할 수 있습니다. */
+export const WithLabel = () => <CheckboxWithLabel label="Label" />;
+
+/** Checkbox.Wrap을 사용하여 compound pattern으로 title, helpText를 추가할 수 있습니다. */
+export const CheckboxWrap = () => (
+  <>
+    <Checkbox.Wrap>
+      <Checkbox.Title>Title</Checkbox.Title>
+      <Checkbox.WithLabel label="Label" />
+      <Checkbox.HelpText>help text</Checkbox.HelpText>
+    </Checkbox.Wrap>
+
+    <Checkbox.Wrap style={{ marginTop: 48 }}>
+      <Checkbox.Title>Title</Checkbox.Title>
+      <Checkbox />
+      <Checkbox.HelpText>help text</Checkbox.HelpText>
+    </Checkbox.Wrap>
+  </>
+);
