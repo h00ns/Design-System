@@ -1,5 +1,6 @@
 import { Badge as Component } from '@hoon-ds/components';
 import { Meta, StoryObj } from '@storybook/react';
+import '@hoon-ds/stylesheet';
 
 const Badge = Component;
 

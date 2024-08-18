@@ -18,9 +18,9 @@
   --hoon-space-30: 120px;
 
   /* font-size */
-  --hoon-text-xsmall: 12px;
-  --hoon-text-small: 14px;
-  --hoon-text-medium: 16px;
+  --hoon-text-xsmall: 10px;
+  --hoon-text-small: 12px;
+  --hoon-text-medium: 14px;
   --hoon-text-large: 18px;
   --hoon-text-xlarge: 20px;
   --hoon-text-2xlarge: 24px;
@@ -29,12 +29,12 @@
   --hoon-text-5xlarge: 48px;
 
   /* line-height */
-  --hoon-leading-xsmall: 16px;
-  --hoon-leading-small: 20px;
-  --hoon-leading-medium: 24px;
-  --hoon-leading-large: 28px;
-  --hoon-leading-xlarge: 32px;
-  --hoon-leading-2xlarge: 36px;
+  --hoon-leading-xsmall: 14px;
+  --hoon-leading-small: 16px;
+  --hoon-leading-medium: 20px;
+  --hoon-leading-large: 24x;
+  --hoon-leading-xlarge: 28px;
+  --hoon-leading-2xlarge: 32px;
   --hoon-leading-3xlarge: 40px;
   --hoon-leading-4xlarge: 48px;
   --hoon-leading-5xlarge: 60px;

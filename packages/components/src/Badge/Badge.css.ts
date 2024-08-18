@@ -1,41 +1,49 @@
 import styled from '@emotion/styled';
 import { css, SerializedStyles } from '@emotion/react';
 import { BadgeSize, BadgeVariant } from './Badge.types';
+import { token } from '@hoon-ds/token';
+
+const {
+  space,
+  radius,
+  color,
+  semantic: { typography },
+} = token;
 
 export const Component = styled.div`
   width: fit-content;
   height: fit-content;
-  padding: 4px 6px;
-  border-radius: 99px;
+  padding: ${space[1]} ${space[2]};
+  border-radius: ${radius.full};
 `;
 
 export const sizeCSS: Record<BadgeSize, SerializedStyles> = {
   small: css({
-    fontSize: '10px',
+    ...typography.xsmall,
   }),
   medium: css({
-    fontSize: '12px',
+    ...typography.small,
   }),
   large: css({
-    fontSize: '14px',
+    ...typography.medium,
   }),
 } as const;
 
 export const variantCSS: Record<BadgeVariant, SerializedStyles> = {
   default: css({
-    color: 'white',
-    backgroundColor: 'black',
+    color: color.white,
+    backgroundColor: color.ink,
   }),
   success: css({
-    color: 'white',
-    backgroundColor: 'green',
+    color: color.white,
+    backgroundColor: color.green[500],
   }),
   critical: css({
-    color: 'white',
-    backgroundColor: 'red',
+    color: color.white,
+    backgroundColor: color.red[500],
   }),
   warning: css({
-    color: 'white',
-    backgroundColor: 'yellow',
+    color: color.white,
+    backgroundColor: color.yellow[700],
   }),
 } as const;
