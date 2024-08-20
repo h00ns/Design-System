@@ -1,0 +1,99 @@
+import { Meta, ColorPalette, ColorItem } from '@storybook/blocks';
+import { token } from '@hoon-ds/token';
+
+<Meta title="Colors" />
+
+<h1>Color Palette</h1>
+
+<ColorPalette>
+  <ColorItem
+    title="Primary"
+    subtitle="token.color.${value}"
+    colors={{
+      'ink': 'var(--hoon-color-ink)',
+      'silver': 'var(--hoon-color-silver)',
+      'white': 'var(--hoon-color-white)',
+    }}
+  />
+  <ColorItem
+    title="Black"
+    subtitle="token.color.black"
+    colors={{
+      '100': 'var(--hoon-color-black-100)',
+      '200': 'var(--hoon-color-black-200)',
+      '300': 'var(--hoon-color-black-300)',
+      '400': 'var(--hoon-color-black-400)',
+      '500': 'var(--hoon-color-black-500)',
+      '600': 'var(--hoon-color-black-600)',
+      '700': 'var(--hoon-color-black-700)',
+    }}
+  />
+  <ColorItem
+    title="Green"
+    subtitle="token.color.green"
+    colors={{
+      '100': 'var(--hoon-color-green-100)',
+      '200': 'var(--hoon-color-green-200)',
+      '300': 'var(--hoon-color-green-300)',
+      '400': 'var(--hoon-color-green-400)',
+      '500': 'var(--hoon-color-green-500)',
+      '600': 'var(--hoon-color-green-600)',
+      '700': 'var(--hoon-color-green-700)',
+    }}
+  />
+  <ColorItem
+    title="Blue"
+    subtitle="token.color.blue"
+    colors={{
+      '100': 'var(--hoon-color-blue-100)',
+      '200': 'var(--hoon-color-blue-200)',
+      '300': 'var(--hoon-color-blue-300)',
+      '400': 'var(--hoon-color-blue-400)',
+      '500': 'var(--hoon-color-blue-500)',
+      '600': 'var(--hoon-color-blue-600)',
+      '700': 'var(--hoon-color-blue-700)',
+    }}
+  />
+  <ColorItem
+    title="Yellow"
+    subtitle="token.color.yellow"
+    colors={{
+      '100': 'var(--hoon-color-yellow-100)',
+      '200': 'var(--hoon-color-yellow-200)',
+      '300': 'var(--hoon-color-yellow-300)',
+      '400': 'var(--hoon-color-yellow-400)',
+      '500': 'var(--hoon-color-yellow-500)',
+      '600': 'var(--hoon-color-yellow-600)',
+      '700': 'var(--hoon-color-yellow-700)',
+    }}
+  />
+  <ColorItem
+    title="Red"
+    subtitle="token.color.red"
+    colors={{
+      '100': 'var(--hoon-color-red-100)',
+      '200': 'var(--hoon-color-red-200)',
+      '300': 'var(--hoon-color-red-300)',
+      '400': 'var(--hoon-color-red-400)',
+      '500': 'var(--hoon-color-red-500)',
+      '600': 'var(--hoon-color-red-600)',
+      '700': 'var(--hoon-color-red-700)',
+    }}
+  />
+</ColorPalette>
+
+<style>
+  {`
+  .sbdocs-content {
+  max-width: none !important;
+}
+
+.sbdocs-content .docblock-colorpalette span {
+  display: none !important;
+}
+
+div:has([title^="var(--clay"]) {
+  background-image: none;
+}
+`}
+</style>
