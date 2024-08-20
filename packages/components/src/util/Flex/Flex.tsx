@@ -1,54 +1,20 @@
-import { CSSProperties, ForwardedRef, forwardRef, HTMLAttributes } from 'react';
+import { ForwardedRef, forwardRef } from 'react';
 import { FlexProps } from './Flex.types';
-import { css } from '@emotion/react';
+import { Div } from '../Div';
 
-const isCSSProperty = (key: string): key is keyof CSSProperties => {
-  return key in document.body.style;
-};
-
-const _Flex = (
-  { children, style, _active, _after, _before, _focus, _hover, ...props }: FlexProps,
-  ref: ForwardedRef<HTMLDivElement>,
-) => {
-  const cssProps: CSSProperties = {};
-  const divProps: HTMLAttributes<HTMLDivElement> = {};
-
-  Object.entries(props).forEach(([key, value]) => {
-    if (isCSSProperty(key)) {
-      cssProps[key as keyof CSSProperties] = value;
-    } else {
-      divProps[key as keyof HTMLAttributes<HTMLDivElement>] = value;
-    }
-  });
-
-  return (
-    <div
-      ref={ref}
-      css={css({
-        display: 'flex',
-        '&:hover': _hover,
-        '&:active': _active,
-        '&:after': _after,
-        '&:before': _before,
-        '&:focus': _focus,
-        ...style,
-        ...cssProps,
-      })}
-      {...divProps}>
-      {children}
-    </div>
-  );
+const _Flex = ({ ...props }: FlexProps, ref: ForwardedRef<HTMLDivElement>) => {
+  return <Div ref={ref} display="flex" {...props} />;
 };
 
 const Flex = forwardRef(_Flex);
 
 const FlexCenter = forwardRef((props: FlexProps, ref: ForwardedRef<HTMLDivElement>) => (
-  <Flex ref={ref} {...props} alignItems="center" justifyContent="center" />
+  <Flex ref={ref} alignItems="center" justifyContent="center" {...props} />
 ));
 FlexCenter.displayName = 'Flex.Center';
 
 const FlexColumn = forwardRef((props: FlexProps, ref: ForwardedRef<HTMLDivElement>) => (
-  <Flex ref={ref} {...props} flexDirection="column" />
+  <Flex ref={ref} flexDirection="column" {...props} />
 ));
 FlexColumn.displayName = 'Flex.Column';
 

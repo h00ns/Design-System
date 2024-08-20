@@ -6,6 +6,7 @@ function App() {
       <Flex
         _hover={{
           color: 'red',
+          cursor: 'pointer',
         }}>
         123
       </Flex>

@@ -1,12 +1,3 @@
-import { CSSObject } from '@emotion/react';
-import { CSSProperties, HTMLAttributes, PropsWithChildren } from 'react';
+import { DivProps } from '../Div';
 
-type HTMLDivAttributesAndCSSProperties = HTMLAttributes<HTMLDivElement> & CSSProperties;
-
-export interface FlexProps extends PropsWithChildren, HTMLDivAttributesAndCSSProperties {
-  _active?: CSSObject;
-  _after?: CSSObject;
-  _before?: CSSObject;
-  _focus?: CSSObject;
-  _hover?: CSSObject;
-}
+export interface FlexProps extends DivProps {}
