@@ -10,7 +10,7 @@ const {
   semantic: { typography },
 } = token;
 
-export const Component = styled.div`
+export const Badge = styled.div`
   width: fit-content;
   height: fit-content;
   padding: ${space[1]} ${space[2]};

@@ -3,7 +3,7 @@ import { token } from '@hoon-ds/token';
 
 const { color } = token;
 
-export const Input = styled.input`
+export const Checkbox = styled.input`
   width: 16px;
   height: 16px;
   margin: 0;

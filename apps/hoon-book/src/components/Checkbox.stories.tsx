@@ -10,6 +10,9 @@ const meta: Meta<typeof Checkbox> = {
       description: 'Checkbox 컴포넌트의 체크 여부를 설정합니다.',
       control: { type: 'boolean' },
     },
+    onChangeChecked: {
+      description: '체크 여부를 변경할 때 실행될, boolean을 매개변수로 받는 함수를 설정합니다.',
+    },
   },
   args: {
     checked: false,

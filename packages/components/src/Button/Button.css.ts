@@ -10,7 +10,7 @@ const {
   semantic: { typography },
 } = token;
 
-export const Component = styled.button<Partial<ButtonProps>>`
+export const Button = styled.button<Pick<ButtonProps, 'fullWidth'>>`
   border-radius: ${radius.medium};
   display: flex;
   column-gap: ${space[2]};

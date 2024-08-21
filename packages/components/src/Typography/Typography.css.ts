@@ -1,6 +1,6 @@
 import styled from '@emotion/styled';
 
-export const Component = styled.p`
+export const Typography = styled.p`
   word-break: keep-all;
   white-space: pre-line;
   letter-spacing: -2%;

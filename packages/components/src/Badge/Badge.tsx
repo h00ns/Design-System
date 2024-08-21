@@ -1,6 +1,7 @@
 import { ForwardedRef, forwardRef } from 'react';
 import { BadgeProps } from './Badge.types';
-import { sizeCSS, variantCSS, Component } from './Badge.css';
+import { sizeCSS, variantCSS } from './Badge.css';
+import * as S from './Badge.css';
 import { css } from '@emotion/react';
 
 const _Badge = (
@@ -8,9 +9,9 @@ const _Badge = (
   ref: ForwardedRef<HTMLDivElement>,
 ) => {
   return (
-    <Component css={css([sizeCSS[size]], variantCSS[variant])} ref={ref} {...htmlDivProps}>
+    <S.Badge css={css([sizeCSS[size]], variantCSS[variant])} ref={ref} {...htmlDivProps}>
       {text}
-    </Component>
+    </S.Badge>
   );
 };
 

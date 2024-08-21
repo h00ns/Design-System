@@ -11,7 +11,7 @@ const spin = keyframes`
   }
 `;
 
-export const Component = styled.div`
+export const Indicator = styled.div`
   animation: ${spin} 1.2s linear infinite;
   border-radius: ${token.radius.full};
   border: 3px solid;

@@ -1,5 +1,5 @@
 import { ChangeEventHandler, ForwardedRef, forwardRef } from 'react';
-import { Input } from './Checkbox.css';
+import * as S from './Checkbox.css';
 import { CheckboxProps } from './Checkbox.types';
 import { CheckboxWithLabel } from './Checkbox.WithLabel';
 import { CheckboxWrap } from './Checkbox.Wrap';
@@ -18,7 +18,13 @@ const _Checkbox = (
   };
 
   return (
-    <Input type="checkbox" ref={ref} checked={checked} onChange={_onChange} {...htmlInputProps} />
+    <S.Checkbox
+      type="checkbox"
+      ref={ref}
+      checked={checked}
+      onChange={_onChange}
+      {...htmlInputProps}
+    />
   );
 };
 

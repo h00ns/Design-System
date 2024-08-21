@@ -1,5 +1,5 @@
 import { ForwardedRef, forwardRef } from 'react';
-import { Component } from './Indicator.css';
+import * as S from './Indicator.css';
 import { IndicatorProps } from './Indicator.types';
 
 const _Indicator = (
@@ -15,7 +15,7 @@ const _Indicator = (
   const resultSize = typeof size === 'number' ? size : sizeMap[size];
 
   return (
-    <Component
+    <S.Indicator
       ref={ref}
       css={{
         width: resultSize,

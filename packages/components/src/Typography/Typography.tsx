@@ -1,7 +1,7 @@
 import { ForwardedRef, forwardRef } from 'react';
 import { TypographyProps } from './Typography.types';
 import { token } from '../../../token/src';
-import { Component } from './Typography.css';
+import * as S from './Typography.css';
 
 const _Typography = (
   { children, variant = 'medium', color, ...htmParagraphProps }: TypographyProps,
@@ -10,7 +10,7 @@ const _Typography = (
   const typographyCSS = token.semantic.typography[variant];
 
   return (
-    <Component
+    <S.Typography
       ref={ref}
       css={{
         color,
@@ -18,7 +18,7 @@ const _Typography = (
       }}
       {...htmParagraphProps}>
       {children}
-    </Component>
+    </S.Typography>
   );
 };
 
