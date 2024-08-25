@@ -1,7 +1,9 @@
-import { ForwardedRef, forwardRef } from 'react';
-import { CheckboxWrapProps } from './Checkbox.types';
 import { token } from '@hoon-ds/token';
+import { ForwardedRef, forwardRef } from 'react';
+
 import { Flex } from '../util';
+
+import { CheckboxWrapProps } from './Checkbox.types';
 
 const _CheckboxWrap = (
   { children, ...htmlDivProps }: CheckboxWrapProps,

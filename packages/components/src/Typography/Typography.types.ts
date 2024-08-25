@@ -1,4 +1,5 @@
 import { HTMLAttributes, PropsWithChildren } from 'react';
+
 import { token } from '../../../token/src';
 
 export interface TypographyProps extends PropsWithChildren, HTMLAttributes<HTMLParagraphElement> {

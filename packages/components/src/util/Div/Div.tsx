@@ -1,6 +1,7 @@
-import { CSSProperties, ForwardedRef, forwardRef, HTMLAttributes } from 'react';
-import { DivProps } from './Div.types';
 import { css } from '@emotion/react';
+import { CSSProperties, ForwardedRef, forwardRef, HTMLAttributes } from 'react';
+
+import { DivProps } from './Div.types';
 
 const isCSSProperty = (key: string): key is keyof CSSProperties => {
   return key in document.body.style;

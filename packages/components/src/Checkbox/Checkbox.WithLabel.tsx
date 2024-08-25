@@ -1,7 +1,8 @@
-import { ForwardedRef, forwardRef } from 'react';
-import { CheckboxWithLabelProps } from './Checkbox.types';
-import { Checkbox } from './Checkbox';
 import { css } from '@emotion/react';
+import { ForwardedRef, forwardRef } from 'react';
+
+import { Checkbox } from './Checkbox';
+import { CheckboxWithLabelProps } from './Checkbox.types';
 
 const _CheckboxWithLabel = (
   { label, ...checkboxProps }: CheckboxWithLabelProps,

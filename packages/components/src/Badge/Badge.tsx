@@ -1,8 +1,9 @@
+import { css } from '@emotion/react';
 import { ForwardedRef, forwardRef } from 'react';
-import { BadgeProps } from './Badge.types';
+
 import { sizeCSS, variantCSS } from './Badge.css';
 import * as S from './Badge.css';
-import { css } from '@emotion/react';
+import { BadgeProps } from './Badge.types';
 
 const _Badge = (
   { size = 'medium', variant = 'default', text, ...htmlDivProps }: BadgeProps,

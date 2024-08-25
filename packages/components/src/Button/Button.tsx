@@ -1,9 +1,11 @@
+import { css } from '@emotion/react';
 import { ForwardedRef, forwardRef } from 'react';
-import { ButtonProps } from './Button.types';
+
+import { Indicator } from '../Indicator';
+
 import { sizeCSS, variantCSS } from './Button.css';
 import * as S from './Button.css';
-import { css } from '@emotion/react';
-import { Indicator } from '../Indicator';
+import { ButtonProps } from './Button.types';
 
 const _Button = (
   {

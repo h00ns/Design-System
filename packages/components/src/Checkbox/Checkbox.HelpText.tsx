@@ -1,7 +1,9 @@
-import { ForwardedRef, forwardRef } from 'react';
-import { CheckboxHelpTextProps } from './Checkbox.types';
-import { Typography } from '../Typography';
 import { token } from '@hoon-ds/token';
+import { ForwardedRef, forwardRef } from 'react';
+
+import { Typography } from '../Typography';
+
+import { CheckboxHelpTextProps } from './Checkbox.types';
 
 const _CheckboxHelpText = (
   { children, ...htmlParagraphProps }: CheckboxHelpTextProps,

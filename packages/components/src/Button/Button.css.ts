@@ -1,7 +1,8 @@
-import styled from '@emotion/styled';
-import { ButtonProps, ButtonSize, ButtonVariant } from './Button.types';
 import { css, SerializedStyles } from '@emotion/react';
+import styled from '@emotion/styled';
 import { token } from '@hoon-ds/token';
+
+import { ButtonProps, ButtonSize, ButtonVariant } from './Button.types';
 
 const {
   space,

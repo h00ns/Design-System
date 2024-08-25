@@ -1,7 +1,8 @@
+import { css } from '@emotion/react';
 import styled from '@emotion/styled';
 import { token } from '@hoon-ds/token';
+
 import { TextareaProps } from './Textarea.types';
-import { css } from '@emotion/react';
 
 const { color, radius, space, fontSize } = token;
 

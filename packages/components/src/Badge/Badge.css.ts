@@ -1,7 +1,8 @@
-import styled from '@emotion/styled';
 import { css, SerializedStyles } from '@emotion/react';
-import { BadgeSize, BadgeVariant } from './Badge.types';
+import styled from '@emotion/styled';
 import { token } from '@hoon-ds/token';
+
+import { BadgeSize, BadgeVariant } from './Badge.types';
 
 const {
   space,

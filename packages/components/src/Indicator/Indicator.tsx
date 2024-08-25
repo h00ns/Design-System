@@ -1,4 +1,5 @@
 import { ForwardedRef, forwardRef } from 'react';
+
 import * as S from './Indicator.css';
 import { IndicatorProps } from './Indicator.types';
 

@@ -1,7 +1,9 @@
 import { ForwardedRef, forwardRef } from 'react';
-import { TypographyProps } from './Typography.types';
+
 import { token } from '../../../token/src';
+
 import * as S from './Typography.css';
+import { TypographyProps } from './Typography.types';
 
 const _Typography = (
   { children, variant = 'medium', color, ...htmParagraphProps }: TypographyProps,
