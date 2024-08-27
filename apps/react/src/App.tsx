@@ -1,16 +1,12 @@
-import { Button, Flex } from '@hoon-ds/components';
+import { Switch } from '@hoon-ds/components';
+import { useState } from 'react';
 
 function App() {
+  const [isChecked, setIsChecked] = useState(false);
+
   return (
     <>
-      <Flex
-        _hover={{
-          color: 'red',
-          cursor: 'pointer',
-        }}>
-        123
-      </Flex>
-      <Button text="123" />
+      <Switch checked={isChecked} disabled onChangeChecked={(v) => setIsChecked(v)} />
     </>
   );
 }
