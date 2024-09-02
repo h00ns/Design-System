@@ -1,6 +1,25 @@
 {
   "name": "@hoon-ds/token",
   "version": "1.0.0",
+  "description": "hoon-ds token",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/h00ns/Design-System.git"
+  },
   "main": "./src/index.ts",
-  "license": "ISC"
+  "license": "ISC",
+  "author": {
+    "name": "Hoon",
+    "email": "01052405583a@gmail.com"
+  },
+  "publishConfig": {
+    "access": "public"
+  },
+  ".": {
+    "require": "./src/index.ts",
+    "import": "./src/index.ts"
+  },
+  "scripts": {
+    "build": ""
+  }
 }
