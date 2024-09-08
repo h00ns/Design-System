@@ -1,11 +1,11 @@
-import { css } from '@emotion/react';
+import { css }                      from '@emotion/react';
 import { ForwardedRef, forwardRef } from 'react';
 
-import { Indicator } from '../Indicator';
+import { Indicator }                from '../Indicator';
 
-import { sizeCSS, variantCSS } from './Button.css';
-import * as S from './Button.css';
-import { ButtonProps } from './Button.types';
+import { sizeCSS, variantCSS }      from './Button.css';
+import * as S                       from './Button.css';
+import { ButtonProps }              from './Button.types';
 
 const _Button = (
   {
@@ -25,7 +25,8 @@ const _Button = (
       fullWidth={fullWidth}
       disabled={disabled}
       css={css([sizeCSS[size], variantCSS[variant]])}
-      {...htmlBUttonProps}>
+      {...htmlBUttonProps}
+    >
       {text}
       {isLoading && !disabled && <Indicator size="small" />}
     </S.Button>

@@ -1,9 +1,9 @@
 import { ForwardedRef, forwardRef } from 'react';
 
-import { token } from '../../../token/src';
+import { token }                    from '../../../token/src';
 
-import * as S from './Typography.css';
-import { TypographyProps } from './Typography.types';
+import * as S                       from './Typography.css';
+import { TypographyProps }          from './Typography.types';
 
 const _Typography = (
   { children, variant = 'medium', color, ...htmParagraphProps }: TypographyProps,
@@ -18,7 +18,8 @@ const _Typography = (
         color,
         ...typographyCSS,
       }}
-      {...htmParagraphProps}>
+      {...htmParagraphProps}
+    >
       {children}
     </S.Typography>
   );

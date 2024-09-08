@@ -1,16 +1,16 @@
 import { ForwardedRef, forwardRef } from 'react';
 
-import * as S from './Indicator.css';
-import { IndicatorProps } from './Indicator.types';
+import * as S                       from './Indicator.css';
+import { IndicatorProps }           from './Indicator.types';
 
 const _Indicator = (
   { size = 'medium', ...htmlDivProps }: IndicatorProps,
   ref: ForwardedRef<HTMLDivElement>,
 ) => {
   const sizeMap: Record<'small' | 'medium' | 'large', number> = {
-    small: 16,
+    small:  16,
     medium: 24,
-    large: 32,
+    large:  32,
   };
 
   const resultSize = typeof size === 'number' ? size : sizeMap[size];
@@ -19,7 +19,7 @@ const _Indicator = (
     <S.Indicator
       ref={ref}
       css={{
-        width: resultSize,
+        width:  resultSize,
         height: resultSize,
       }}
       {...htmlDivProps}

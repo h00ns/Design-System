@@ -1,6 +1,7 @@
 import { ChangeEventHandler, ForwardedRef, forwardRef, useId } from 'react';
-import { SwitchProps } from './Switch.types';
-import * as S from './Switch.css';
+
+import * as S                                                  from './Switch.css';
+import { SwitchProps }                                         from './Switch.types';
 
 const _Swtich = (
   { checked, disabled = false, onChangeChecked, onChange, ...htmlInputProps }: SwitchProps,

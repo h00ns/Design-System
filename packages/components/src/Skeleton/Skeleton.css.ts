@@ -1,6 +1,6 @@
 import { keyframes } from '@emotion/react';
-import styled from '@emotion/styled';
-import { token } from '@hoon-ds/token';
+import styled        from '@emotion/styled';
+import { token }     from '@hoon-ds/token';
 
 const { color } = token;
 

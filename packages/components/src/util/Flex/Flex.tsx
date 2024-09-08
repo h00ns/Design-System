@@ -1,8 +1,8 @@
 import { ForwardedRef, forwardRef } from 'react';
 
-import { Div } from '../Div';
+import { Div }                      from '../Div';
 
-import { FlexProps } from './Flex.types';
+import { FlexProps }                from './Flex.types';
 
 const _Flex = ({ ...props }: FlexProps, ref: ForwardedRef<HTMLDivElement>) => {
   return <Div ref={ref} display="flex" {...props} />;

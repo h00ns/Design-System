@@ -1,8 +1,9 @@
+import { css }                      from '@emotion/react';
+import { token }                    from '@hoon-ds/token';
 import { ForwardedRef, forwardRef } from 'react';
-import { SkeletonProps } from './Skeleton.types';
-import * as S from './Skeleton.css';
-import { css } from '@emotion/react';
-import { token } from '@hoon-ds/token';
+
+import * as S                       from './Skeleton.css';
+import { SkeletonProps }            from './Skeleton.types';
 
 const _Skeleton = (
   { width, height, radius = 'medium', ...htmlDivProps }: SkeletonProps,

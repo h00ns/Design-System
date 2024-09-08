@@ -1,9 +1,9 @@
-import { token } from '@hoon-ds/token';
+import { token }                    from '@hoon-ds/token';
 import { ForwardedRef, forwardRef } from 'react';
 
-import { Typography } from '../Typography';
+import { Typography }               from '../Typography';
 
-import { CheckboxTitleProps } from './Checkbox.types';
+import { CheckboxTitleProps }       from './Checkbox.types';
 
 const _CheckboxTitle = (
   { children, ...htmlParagraphProps }: CheckboxTitleProps,

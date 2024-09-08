@@ -1,6 +1,6 @@
-import { css, SerializedStyles } from '@emotion/react';
-import styled from '@emotion/styled';
-import { token } from '@hoon-ds/token';
+import { css, SerializedStyles }                  from '@emotion/react';
+import styled                                     from '@emotion/styled';
+import { token }                                  from '@hoon-ds/token';
 
 import { ButtonProps, ButtonSize, ButtonVariant } from './Button.types';
 
@@ -57,19 +57,19 @@ export const sizeCSS: Record<ButtonSize, SerializedStyles> = {
 export const variantCSS: Record<ButtonVariant, SerializedStyles> = {
   default: css({
     backgroundColor: color.ink,
-    color: color.white,
+    color:           color.white,
   }),
   secondary: css({
     backgroundColor: color.gray[300],
-    color: color.gray[600],
+    color:           color.gray[600],
   }),
   outlined: css({
     backgroundColor: color.white,
-    color: color.gray[600],
-    boxShadow: `inset 0 0 0 1px ${color.gray[500]}`,
+    color:           color.gray[600],
+    boxShadow:       `inset 0 0 0 1px ${color.gray[500]}`,
   }),
   critical: css({
     backgroundColor: color.red[500],
-    color: color.white,
+    color:           color.white,
   }),
 } as const;

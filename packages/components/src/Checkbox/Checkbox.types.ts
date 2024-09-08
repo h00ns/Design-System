@@ -1,7 +1,7 @@
 import { HTMLAttributes, InputHTMLAttributes, PropsWithChildren } from 'react';
 
 export interface CheckboxProps extends InputHTMLAttributes<HTMLInputElement> {
-  checked?: boolean;
+  checked?:         boolean;
   onChangeChecked?: (value: boolean) => void;
 }
 
@@ -13,8 +13,8 @@ export interface CheckboxWrapProps extends PropsWithChildren, HTMLAttributes<HTM
 
 export interface CheckboxTitleProps
   extends PropsWithChildren,
-    HTMLAttributes<HTMLParagraphElement> {}
+  HTMLAttributes<HTMLParagraphElement> {}
 
 export interface CheckboxHelpTextProps
   extends PropsWithChildren,
-    HTMLAttributes<HTMLParagraphElement> {}
+  HTMLAttributes<HTMLParagraphElement> {}

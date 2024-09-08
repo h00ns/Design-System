@@ -1,8 +1,8 @@
 import { ForwardedRef, forwardRef } from 'react';
 
-import { Div } from '../Div';
+import { Div }                      from '../Div';
 
-import { GridProps } from './Grid.types';
+import { GridProps }                from './Grid.types';
 
 const _Grid = ({ ...props }: GridProps, ref: ForwardedRef<HTMLDivElement>) => {
   return <Div ref={ref} display="grid" {...props} />;

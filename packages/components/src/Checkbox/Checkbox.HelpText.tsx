@@ -1,9 +1,9 @@
-import { token } from '@hoon-ds/token';
+import { token }                    from '@hoon-ds/token';
 import { ForwardedRef, forwardRef } from 'react';
 
-import { Typography } from '../Typography';
+import { Typography }               from '../Typography';
 
-import { CheckboxHelpTextProps } from './Checkbox.types';
+import { CheckboxHelpTextProps }    from './Checkbox.types';
 
 const _CheckboxHelpText = (
   { children, ...htmlParagraphProps }: CheckboxHelpTextProps,
@@ -15,7 +15,8 @@ const _CheckboxHelpText = (
       ref={ref}
       variant="small"
       color={token.color.gray[700]}
-      {...htmlParagraphProps}>
+      {...htmlParagraphProps}
+    >
       {children}
     </Typography>
   );

@@ -1,8 +1,8 @@
-import { css } from '@emotion/react';
+import { css }                      from '@emotion/react';
 import { ForwardedRef, forwardRef } from 'react';
 
-import { Checkbox } from './Checkbox';
-import { CheckboxWithLabelProps } from './Checkbox.types';
+import { Checkbox }                 from './Checkbox';
+import { CheckboxWithLabelProps }   from './Checkbox.types';
 
 const _CheckboxWithLabel = (
   { label, ...checkboxProps }: CheckboxWithLabelProps,
@@ -14,12 +14,13 @@ const _CheckboxWithLabel = (
     <div
       css={css({
         display: 'flex',
-        gap: 8,
+        gap:     8,
 
         '& + .checkbox-help-text': {
           paddingLeft: 24,
         },
-      })}>
+      })}
+    >
       <Checkbox {...checkboxProps} ref={ref} id={checkboxId} />
       <label htmlFor={checkboxId}>{label}</label>
     </div>

@@ -1,3 +1,3 @@
 import { DivProps } from '../Div';
 
-export interface FlexProps extends DivProps {}
+export type FlexProps = DivProps;

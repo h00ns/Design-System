@@ -1,7 +1,7 @@
-import { css } from '@emotion/react';
+import { css }                                                     from '@emotion/react';
 import { CSSProperties, ForwardedRef, forwardRef, HTMLAttributes } from 'react';
 
-import { DivProps } from './Div.types';
+import { DivProps }                                                from './Div.types';
 
 const isCSSProperty = (key: string): key is keyof CSSProperties => {
   return key in document.body.style;
@@ -17,7 +17,8 @@ const _Div = (
   Object.entries(props).forEach(([key, value]) => {
     if (isCSSProperty(key)) {
       cssProps[key as keyof CSSProperties] = value;
-    } else {
+    }
+    else {
       divProps[key as keyof HTMLAttributes<HTMLDivElement>] = value;
     }
   });
@@ -26,15 +27,16 @@ const _Div = (
     <div
       ref={ref}
       css={css({
-        '&:hover': _hover,
+        '&:hover':  _hover,
         '&:active': _active,
-        '&:after': _after,
+        '&:after':  _after,
         '&:before': _before,
-        '&:focus': _focus,
+        '&:focus':  _focus,
         ...style,
         ...cssProps,
       })}
-      {...props}>
+      {...props}
+    >
       {children}
     </div>
   );

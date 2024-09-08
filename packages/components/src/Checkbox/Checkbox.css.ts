@@ -1,4 +1,4 @@
-import styled from '@emotion/styled';
+import styled    from '@emotion/styled';
 import { token } from '@hoon-ds/token';
 
 const { color } = token;

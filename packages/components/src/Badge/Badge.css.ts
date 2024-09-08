@@ -1,6 +1,6 @@
-import { css, SerializedStyles } from '@emotion/react';
-import styled from '@emotion/styled';
-import { token } from '@hoon-ds/token';
+import { css, SerializedStyles }   from '@emotion/react';
+import styled                      from '@emotion/styled';
+import { token }                   from '@hoon-ds/token';
 
 import { BadgeSize, BadgeVariant } from './Badge.types';
 
@@ -32,19 +32,19 @@ export const sizeCSS: Record<BadgeSize, SerializedStyles> = {
 
 export const variantCSS: Record<BadgeVariant, SerializedStyles> = {
   default: css({
-    color: color.white,
+    color:           color.white,
     backgroundColor: color.ink,
   }),
   success: css({
-    color: color.white,
+    color:           color.white,
     backgroundColor: color.green[500],
   }),
   critical: css({
-    color: color.white,
+    color:           color.white,
     backgroundColor: color.red[500],
   }),
   warning: css({
-    color: color.white,
+    color:           color.white,
     backgroundColor: color.yellow[700],
   }),
 } as const;

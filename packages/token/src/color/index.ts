@@ -1,6 +1,6 @@
 const color = {
-  ink: 'var(--hoon-color-ink)',
-  white: 'var(--hoon-color-white)',
+  ink:    'var(--hoon-color-ink)',
+  white:  'var(--hoon-color-white)',
   silver: 'var(--hoon-color-gray)',
 
   // Black

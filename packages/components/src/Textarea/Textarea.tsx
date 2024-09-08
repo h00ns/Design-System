@@ -1,8 +1,8 @@
-import { css } from '@emotion/react';
+import { css }                                          from '@emotion/react';
 import { ChangeEventHandler, ForwardedRef, forwardRef } from 'react';
 
-import * as S from './Textarea.css';
-import { TextareaProps } from './Textarea.types';
+import * as S                                           from './Textarea.css';
+import { TextareaProps }                                from './Textarea.types';
 
 const _Textarea = (
   {

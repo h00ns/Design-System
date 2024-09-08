@@ -1,3 +1,3 @@
 import { DivProps } from '../Div';
 
-export interface GridProps extends DivProps {}
+export type GridProps = DivProps;
